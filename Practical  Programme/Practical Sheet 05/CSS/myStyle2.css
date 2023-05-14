@@ -1,0 +1,21 @@
+#navigation{
+    position:absolute;
+    width: 210px;
+    height: 600px; 
+    margin: 0;
+    margin-top: 50px;
+    border-right: 2px solid red;
+    font-weight: normal;
+}
+
+#docPosition{
+    position: absolute;
+    padding: 0 20px 20px; /*top right bottom left*/
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+body{ 
+
+    background-image: url("../IMAGE/wp2742499.jpg");
+}

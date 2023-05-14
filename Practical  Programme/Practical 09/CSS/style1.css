@@ -1,0 +1,47 @@
+h1	{
+
+	text-align: center;
+	font-size: 14pt;
+	margin-bottom: 5px;
+	text-decoration: underline;
+}
+
+table.style1{
+
+	width:290px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table.style2{
+
+	margin:70px;
+	width:350px;
+	
+}
+
+th {
+
+	padding: 3px;
+
+}
+ 
+td	{
+
+	padding-left: 8px;
+	padding-right: 8px;
+	border: 1px solid #990000;
+	background-color: #f1fccc;
+
+}
+
+#trHeader{
+
+	text-decoration:underline;
+	color: #990000;
+}
+ 
+ .centerCell{
+ 
+	text-align:  center;
+ }

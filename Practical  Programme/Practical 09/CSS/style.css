@@ -1,0 +1,30 @@
+
+#container{
+width: 800px;
+background-color:aqua;
+}
+
+#header{
+color:#F9C111;
+width:800;
+height:100;
+float:left; 
+font-size:20;
+background-color:aqua;
+}
+
+#content{
+color:#616775;
+width:600; 
+height:500; 
+float:right;
+background-color:pink;
+}
+
+#menu {
+color:#6CF;
+width:200; 
+height:500; 
+float:left;
+background-color:yellow;
+}

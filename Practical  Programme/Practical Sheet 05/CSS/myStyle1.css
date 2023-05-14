@@ -1,0 +1,19 @@
+body {
+  background-color: #D1F2EB;
+}
+
+h2 {
+    color: green;
+}
+
+h3{
+    font-style: italic;font-family: cambria;color: orange;
+}
+
+p{
+    color: blue;
+}
+
+ul{
+    font-family: arial;
+}
