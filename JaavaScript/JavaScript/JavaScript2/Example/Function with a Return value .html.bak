@@ -1,0 +1,8 @@
+<html>
+<body>
+<button id="btn1" onclick=myFunction()>Click Me</button>
+<script>
+
+</script>
+</body>
+</html>

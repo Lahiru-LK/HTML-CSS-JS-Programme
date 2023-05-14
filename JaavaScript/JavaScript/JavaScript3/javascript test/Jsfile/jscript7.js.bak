@@ -1,0 +1,38 @@
+
+var tips= new Array(); 
+var amount= new Array();
+var tip,total=0,fulltotal=0;
+
+//function
+
+function tipcal(bill){
+	
+	
+	if(bill<1000){
+		tip=bill*(20/100);
+	}
+	else if (bill>=1000 && bill<1500){
+		tip=bill*(15/100);
+	}
+	else{
+		tip=bill*(10/100);
+	}
+	
+	tips.push(tip);
+	amount.push(bill);
+	
+	total=total+tip;
+	bill=bill+tip;
+	fulltotal=fulltotal+bill;
+	
+	alert(x+" tip is "+tip+"\nNew total is "+bill);	
+} 
+var x=1;
+while(x<=3){	
+	tipcal(parseInt(prompt("Enter "+x+" bill")));
+	x++;
+}
+
+alert("all tips are "+tips+"\nall tips amount is "+total+"\nFull pay bill amount is "+fulltotal);
+
+

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Form Validation</title>
+			<script src="myscript.js"></script>
+	</head>
+	
+	<body>
+		<h3>Enter the following details</h3>
+		<form name="myForm">
+			Name:
+			<input type="text" name="fullName" >
+			Age:
+			<input type="text" name="age" onblur="age_onblur()">
+			<br>
+			<input type="button" value="Check Validity"  name="btnCheck" onclick="check_form()">
+		</form>
+	</body>
+</html>

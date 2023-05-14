@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Select Box Control</title>
+
+	<style>
+	td{font-family:cambria;}
+	table{border: 1px solid black;}
+	h1{text-align:center}
+	</style>
+
+
+
+
+
+	<script type="text/javascript">
+	
+	function  checkvalue(Gpa){
+	
+		if(Gpa==""){
+			alert("Please enter your GPA value");	
+	}
+		else if ((4>=Gpa)&&(Gpa>=3.7)){
+			alert("First class");	
+	}
+		else if ((3.7>Gpa)&&(Gpa>=3.3)){
+			alert("Second class upper division");	
+	}
+		else if ((3.3>Gpa)&&(Gpa>=3.0)){
+			alert("Second class lower division");	
+	}
+		else if ((3.0>Gpa)&&(Gpa>=2.0)){
+			alert("Pass");	
+	}
+	
+		else if ((2.0>Gpa)&&(Gpa>=0)){
+			alert("Fail");	
+	}
+	
+	else if ((4.0>Gpa)||(Gpa>0))	{
+			alert("Please enter a valid gpa value");	
+
+	}
+	
+	}
+	</script>
+
+
+
+
+
+	</head>
+
+		<body bgcolor="#A1FF1F">
+
+	
+	<form>
+
+		<table align="center">
+
+		<h1>Class Calculator</h1>
+		<tr>
+		<td>Enter your GPA value</td>
+		<td><input type="text" name="Gpa_value" id="Gpa"></td>
+		</tr>
+
+		
+		<tr>
+		<td><input type="submit" value="Submit" onclick="checkvalue(document.getElementById('Gpa').value)"></td>
+		<td><input type="reset" value="Reset"></td>
+		</tr>
+
+		</table>
+
+		</form>
+	</body>
+</html>

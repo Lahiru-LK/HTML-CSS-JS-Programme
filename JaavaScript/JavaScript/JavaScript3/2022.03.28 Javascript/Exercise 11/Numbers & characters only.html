@@ -1,0 +1,27 @@
+<html>
+<body>
+
+<form name="myForm" action=""  method="post">
+Address:	<input type="text" name="address" id="txtadd" >
+<input type="button" value="Submit"  onclick="numschars()">
+</form>
+
+<script>
+
+	function numschars(){
+	
+	var numchar= /^[0-9a-zA-Z]+$/;
+	var address=document.getElementById("txtadd").value;
+	if(address.match(numchar))
+	{
+		return true;
+		}
+	else
+	{
+		alert("Special characters are not allowed");
+	return false;
+		}
+	}
+</script>
+</body>
+</html>

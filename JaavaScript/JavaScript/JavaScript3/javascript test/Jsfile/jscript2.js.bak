@@ -1,0 +1,9 @@
+var FristN,SecondN,result;
+
+FristN=prompt("Enter first number : ");
+SecondN=prompt("Enter second number : ");
+
+result=FristN+SecondN;
+
+alert("Total is "+result);
+

@@ -1,0 +1,4 @@
+function myclickmyclick(name){
+	window.alert("Hello "+name);
+	
+}

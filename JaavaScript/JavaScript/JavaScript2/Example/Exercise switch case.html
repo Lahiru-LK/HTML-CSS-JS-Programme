@@ -1,0 +1,36 @@
+<html>
+<body>
+	<h3>Insert the fruit name (Orange/Apple) to find out the fruit color</h3>
+	<input type="text" id="fruit" name="txtfruit">
+	<button onclick="myFunction()">Find color</button>
+	<p id="demo"></p>
+	
+<script>
+
+function myFunction(){
+
+	var fruit=document.getElementById("fruit").value;
+	var msg;
+
+	switch(fruit){
+	
+	case "orange":
+		msg="Color is orange";
+		break;
+	
+	
+	case "Apple":
+		msg="Color is Red or  Green";
+		break;
+	
+	default:
+		msg="please enter a fruit name";
+
+	}
+	
+	document.getElementById("demo").innerHTML=msg;
+
+}
+</script>
+</body>
+</html>

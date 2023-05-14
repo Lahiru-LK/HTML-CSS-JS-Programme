@@ -1,0 +1,30 @@
+<html>
+<body>
+
+
+<p>A loop with a break.</p>
+
+<script>
+	function printBreak(){
+	var i;
+	for(i=0;i<10;i++){
+		if(i==3){break;}
+		document.write("Number" +i + "<br>");
+		}
+		}
+	 printBreak();
+</script>
+	<p>A loop which will skip the step where i=3. A loop with continue</p>
+<script>
+
+function printContinue(){
+	var j;
+	for(j=0;j<10;j++){
+		if(j==3){continue;}
+		document.write("The number is " + J + "<br>" );
+		}
+	}
+printContinue();
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Control</title>
+	
+	<style>
+	td{font-family:cambria;}
+	table{border: 1px solid black;}
+	h1{color:blur;text-align:center}
+	</style>
+	
+	<script type="text/javascript">
+	
+	
+	
+	
+	
+	function allLetter() {
+	
+	var specialchar=/^[a-zA-Z ]+$/;
+	//var name=document.getElementById("Fname").value;
+	
+	if (name.match(specialchar)){
+		return true;
+		
+	}
+	else{
+		alert("You can only enter characters for full Name");
+		return false;
+	}
+	}
+	
+
+	
+	
+	function validate_form(){
+	var validatePwd;
+
+		if(document.myform.pwd1.value != document.myform.pwd2.value){
+		
+		alert("Two passwords are not matching");
+		document.myform.pwd1.focus();
+		document.myform.pwd1.select();
+		
+		return validatePwd=false;
+			}
+	else{
+		alert("Passwords are matching");
+		return validatePwd=true;
+	}
+}
+
+
+	</script>
+	</head>
+		
+		<body bgcolor="aqua">
+	
+	<h1>Password Validation</h2>
+	
+	<form name="myform" onsubmit="return validate_form()"action="#">
+		
+		<table align="center">
+		
+		
+		<tr>
+		<td>Enter full name</td>
+		<td><input type="text" name="fname" id="Fname"></td>
+		</tr>
+		
+		<tr>
+		<td>Enter password</td>
+		<td><input type="password" name="pwd1"></td>
+		</tr>
+		
+		<tr>
+		<td>Re-enter the password</td>
+		<td><input type="password" name="pwd2"></td>
+		</tr>
+		
+		<tr>
+		<td><input type="submit" value="Submit" onclick="allLetter()"></td>
+		<td><input type="reset" value="Reset"></td>
+		</tr>
+		
+		</table>
+		
+		</form>
+	</body>
+</html>

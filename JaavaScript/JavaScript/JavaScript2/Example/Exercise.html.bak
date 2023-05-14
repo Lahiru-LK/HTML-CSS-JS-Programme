@@ -1,0 +1,12 @@
+<html>
+<body>
+<p id="demo" ></p>
+<script>
+function myFunction(u,t){
+		return u*t;
+		}
+var s= myFunction(10,2);
+document.getElementById("demo").innerHTML="speed is ="+s;
+</script>
+</body>
+</html>

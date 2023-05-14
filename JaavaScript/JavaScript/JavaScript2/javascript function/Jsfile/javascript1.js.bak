@@ -1,0 +1,10 @@
+
+function myClick(){
+	window.alert("Hello Kavindya");
+	
+}
+
+function Arguments(name){
+	window.alert("Hello "+name+);
+	
+}

@@ -1,0 +1,34 @@
+<html>
+<body>
+
+	Enter marks: <input type="text" id="mark" name="texname">
+	<button onclick="myFunction()">Find Grade</button>
+	<p id="demo"></p>
+<script>
+function myFunction(){
+	
+	var marks=document.getElementById("mark").value;
+	var grade;
+	
+	if (marks>=90){
+	grade="A";
+	}
+	else if (marks>=65){
+	grade="B";
+	}
+	else if (marks>=45){
+	grade="C";
+	}
+	else if (marks>=35){
+	grade="D";
+	}
+	else{
+	grade="F";
+	}
+	
+	document.getElementById("demo").innerHTML="Grade is "+grade;
+
+	}
+</script>	
+</body>
+</html>

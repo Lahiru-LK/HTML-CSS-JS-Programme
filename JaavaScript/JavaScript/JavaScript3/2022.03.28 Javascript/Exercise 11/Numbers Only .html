@@ -1,0 +1,27 @@
+<html>
+<body>
+
+<form name="myForm" action="" onsubmit="return allNums()" method="post">
+Mobile No:	<input type="text" name="mobile" id="mobilenum" >
+<input type="submit" value="Submit" >
+</form>
+
+<script>
+
+	function allNums(){
+	
+	var numbers= /^[0-9]+$/;
+	var mobile=document.getElementById("mobilenum").value;
+	if(mobile.match(numbers))
+	{
+		return true;
+		}
+	else
+	{
+		alert("Enter number only");
+	return false;
+		}
+	}
+</script>
+</body>
+</html>
