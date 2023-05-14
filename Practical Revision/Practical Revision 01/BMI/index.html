@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+
+    <link rel="stylesheet" type="text/css" href="./index.css">
+   
+    <script src="./jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    
+    <div class="header01">
+            <h1>Find Your Body Mass Index Value</h1>    
+    </div>
+
+    <div class="part01">
+        <table class="table01">
+            <caption>BMI Chart</caption>
+
+            <tr>
+                <th>BMI Value</th>
+                <th>State</th>
+            </tr>
+
+            <tr>
+                <td>19<=bmi<=24</td>
+                <td>Normal</td>
+            </tr>
+            <tr>
+                <td>24<=bmi<=29</td>
+                <td>Over weight</td>
+            </tr>
+            <tr>
+                <td>29<=bmi<=60</td>
+                <td>Obese</td>
+            </tr>
+        </table>
+
+    </div>
+
+
+    <div class="part02">
+        <form action="" name="" class="form02">
+                <table class="table02">
+                    <tr>
+                        <td >Enter your weigth in kilo grammes</td>
+                        <td id="table02inputcel">
+                            <input type="floatnumber" id="weightin" class="" name="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >Enter your height in meters</td>
+                        <td id="table02inputcel">
+                            <input type="floatnumber" id="heightin" class="" name="" >
+
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+
+            
+            <div class="twobutton">   
+                <input type="button" value="Submit"  class="btn" onclick="FindBMI()">
+                <input type="reset" value="Reset" id="reset" class="btn">
+           </div>
+
+        </form> 
+
+        <div class="output" >
+                <h3 >Your BMI value is</h3>
+                <h3 id="BMIvalue"></h3>
+                <h3 id="state"></h3>
+  
+            <img src="./Revision/normal.jpg" alt="BMIimage" name="" id="normal">
+            <img src="./Revision/obese.jpeg" alt="BMIimage" name="" id="obese">
+            <img src="./Revision/over.jpeg" alt="BMIimage" name="" id="over">
+    
+
+        </div>
+
+           
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./index.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<title>Quation_4</title>
+	
+	<script src="jquery-3.6.0.min.js"></script>
+	</head>
+
+	<style>
+	.imgs{
+		margin-top:4%;
+		
+		
+	}
+	
+	#imagedog1{
+		width:400px;
+		height:300px;
+		margin-left:20%;
+		
+	}
+	#imagedog2{
+		width:400px;
+		height:300px;
+		margin-left:46%;
+		margin-top:-19%;
+	
+	}
+	#imagedog3{
+		width:400px;
+		height:300px;
+		margin-left:20%;
+		
+
+	}
+	#imagedog4{
+		width:400px;
+		height:300px;
+		margin-left:46%;
+		margin-top:-19.8%;
+	}
+	</style>
+
+	<body>
+		<button id="img1">Start Animation(images 01)</button>
+		<button id="img2">Start Animation(images 02)</button>
+		<button id="img3">Start Animation(images 03)</button>
+		<button id="img4">Start Animation(images 04)</button>
+
+		
+		<table>
+			<tr>
+				<td><img src="d1.jpg" id="imagedog1"></td>
+			</tr>
+			<tr>
+				<td><img src="d2.jpg" id="imagedog2"></td>
+			</tr>
+			<tr>
+				<td><img src="d3.jpg" id="imagedog3"></td>
+				<td><img src="d4.jpg" id="imagedog4"></td>
+			</tr>
+		</table>
+
+
+
+
+
+
+		<script>
+		$(document).ready(function(){
+			  $("#img1").click(function(){
+				$("#imagedog1").fadeToggle(3000);
+			  });
+			
+			
+			$("#img2").click(function(){
+				$("#imagedog2").fadeToggle(3000);
+			  });
+			
+			$("#img3").click(function(){
+				$("#imagedog3").fadeToggle(3000);
+			  });
+			  
+			  $("#img4").click(function(){
+				$("#imagedog4").fadeToggle(3000);
+			  });
+			
+			
+			});
+		  
+		  
+	
+	</script>
+
+	</body>
+	
+	
+
+</html>

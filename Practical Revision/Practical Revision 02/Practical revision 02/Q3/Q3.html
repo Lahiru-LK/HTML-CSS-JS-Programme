@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<title>Quation_3</title>
+	<style>
+	#yell{
+		background:yellow;
+		height:10rem;
+	}
+	
+	</style>
+	
+	<script src="jquery-3.6.0.min.js"></script>
+	
+	</head>
+
+	<body>
+		<div id="yell">
+			<p>Slide in and out this paragraph using the buttons</p>
+		</div>	
+			<input type="button" value="Slide Up" id="slUP" name="">
+			<input type="button" value="Slide Down" id="slDown" name="">
+			<input type="button" value="Slide Toggle" id="slToggle" name="">
+	
+	<script>
+		$(document).ready(function(){
+			$("#slUP").click(function(){
+			$("#yell").slideUp();
+			});
+			
+		$("#slDown").click(function(){
+			$("#yell").slideDown();
+			});
+			
+		$("#slToggle").click(function(){
+		$("#yell").slideToggle();
+			});
+
+		});
+	
+	</script>
+	
+	</body>
+	
+
+
+</html>
