@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Quation_2</title>
+	<style>
+		#xx{
+			text-align:center;
+			margin-top:20%;
+		}
+	</style>
+
+	</head>
+
+	<body>
+	<div id="xx">
+		<input type="button" value="Click Button" id="bton" onclick="sayHello()">
+	</div>
+	
+	
+	
+	
+	
+	
+		<script>
+		
+			function sayHello(){
+				alert("Hello there");
+			} 
+			
+		</script>
+		
+	</body>
+	
+
+
+</html>

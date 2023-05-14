@@ -1,0 +1,18 @@
+<html>
+	<head>
+		 <script src="jquery-3.6.0.min.js"></script>
+		 <script>
+			
+			$(document).ready(function(){
+				$("button").click(function(){
+				alert("dfsd");
+					$(".para").hide();
+				});
+			});
+		 </script>
+	</head>
+	<body >
+		 <button>Hide/Show</button>
+		 <p class="para">This is my JQuery code</P>
+</body>
+</html>

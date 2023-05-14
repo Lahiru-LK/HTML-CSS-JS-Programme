@@ -1,0 +1,26 @@
+<html>
+	<head>
+	<title>Faculty of Technology</title>
+	<style>
+		#img{
+			margin-left:2%;
+		}
+	</style>
+	</head>
+	<body>
+		<h3>Subjects offered by the departments</h3>
+		<ul>
+			<li>ICT</li>
+				<ol type="i">
+					<li>Web Technology(&lt;HTML&gt;)</li>
+					<li>Essentials of ICT</li>
+					<li>Java</li>
+				</ol>
+			<li>ENT</li>
+			<li>BST</li>
+		</ul>
+		<hr>
+		<img src="image.png" alt="image" id="img">
+		<p>&copy;DICT@RUH</p>	
+	</body>
+</html>

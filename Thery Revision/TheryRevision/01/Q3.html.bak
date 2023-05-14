@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Quation_2</title>
+	</head>
+	<body>
+
+			<input type="button" value="Click Button" id="bton" onclick="addNumbers(2,3)">
+
+			<script>
+				function addNumbers(num1,num2){
+					var value=num1+num2;
+					alert(value);
+					return value;
+				} 	
+			</script>
+	</body>
+</html>

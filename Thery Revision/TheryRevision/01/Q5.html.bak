@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<title>Quation_5</title>
+	</head>
+	<body>	
+		<form>
+			<table>
+				<tr>
+					<td>Marks</td>
+					<td><input type="text" id="marks"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Submit" id="sub"onsubmit="calGrade()"></td>
+				</tr>
+			</table>	
+			<p id="demo"></p>
+		</form>
+			<script>
+				function calGrade(){
+					var x=document.getElementById("marks").value;
+					var value;
+					switch(x){
+						case 'A':
+								value="Very Good";
+								break;
+						case 'B':
+								value="Good";
+								break;		
+						case 'C':
+								value="Bad";
+								break;
+						default:
+								value="Invaild";
+					}
+					document.getElementById("demo").innerHTML=value;	
+				} 	
+			</script>
+	</body>
+</html>

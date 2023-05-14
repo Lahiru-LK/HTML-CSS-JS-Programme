@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Quation_4</title>
+	</head>
+	<body>
+		<form onsubmit="fi2ndArea()">
+			<table>
+				<tr>
+					<td>Height</td>
+					<td><input type="text" id="height"></td>
+				</tr>
+				<tr>
+					<td>Length</td>
+					<td><input type="text" id="length"> </td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Submit" id="sub"></td>
+				</tr>
+			</table>
+		</form>
+			<script>
+				function findArea(){
+					var h=document.getElementById("height").value;
+					var l=document.getElementById("length").value;
+						
+					var A=h*l;
+					
+					alert("Area is "+A);
+				} 	
+			</script>
+	</body>
+</html>
