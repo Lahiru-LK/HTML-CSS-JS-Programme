@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "food.dtd">
+<food>
+	<item>
+		<name>1 instance</name>
+		<description>1 instance</description>
+		<price>1 instance</price>
+		<type>1 or more instances</type>
+	</item>
+</food>

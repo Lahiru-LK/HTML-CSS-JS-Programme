@@ -1,0 +1,15 @@
+<CATALOG{
+	background-color:pink;
+}
+
+CD{
+	display:block;
+	margin-bottom:30pt;
+	margin-left:0;
+}
+
+TITLE{
+	display:block;
+	color:green;
+	font-size:20pt;
+}

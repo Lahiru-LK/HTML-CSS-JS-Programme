@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE note SYSTEM "food.dtd">
+<food>
+	<item>
+		<name>Fried Rice</name>
+		<description>With chicken curry</description>
+		<price currency= “LKR”>Rs.300</price>
+		<type> Full, budget pack</type>
+	</item>
+	
+	<item>
+		<name>Biryani </name>
+		<description>With egg</description>
+		<price currency= “LKR”>Rs.250 </price>
+		<type>Full,half, budget pack</type>
+	</item>
+</food>

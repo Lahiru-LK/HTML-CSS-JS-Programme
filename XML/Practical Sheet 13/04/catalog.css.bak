@@ -1,0 +1,31 @@
+CATELOG{
+	background-color:pink;
+}
+
+TITLE {
+	display: block;
+	color: green;
+	margin-left: 15pt;
+	font-size: 20pt;
+}
+
+AUTHOR {
+	display: block;
+	color: blue;
+	margin-left: 25pt;
+	font-size: 15pt;
+}
+
+YEAR {
+	display: block;
+	color: black;
+	margin-left: 35pt;
+	font-size: 13pt;
+}
+
+PRICE {
+	display: block;
+	color: red;
+	margin-left: 45pt;
+	font-size: 10pt;
+}

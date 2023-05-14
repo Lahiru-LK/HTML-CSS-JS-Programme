@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CATELOG>
+	<BOOK>
+			<TITLE>Harry Potter</TITLE>
+			<AUTHOR>J.K. Rowling</AUTHOR>
+			<YEAR>1998</YEAR>
+			
+			<PRICE>
+				<HARD_COVER>29$</HARD_COVER>
+				<PAPER_BACK>59$</PAPER_BACK>
+			</PRICE>
+	</BOOK>
+		
+		<BOOK>
+			<TITLE>Sherlock Holmes</TITLE>
+			<AUTHOR>Sir Arthur Conan Doyle</AUTHOR>
+			<YEAR>1986</YEAR>
+			
+			<PRICE>
+				<HARD_COVER>69$</HARD_COVER>
+				<PAPER_BACK>30$</PAPER_BACK>
+			</PRICE>
+		</BOOK>
+</CATELOG>
