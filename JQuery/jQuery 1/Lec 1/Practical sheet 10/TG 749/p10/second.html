@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+		<head>
+
+			<script src="jquery-3.6.0.min.js"> </script>
+
+				<script>
+
+					$(document).ready(function(){
+						$(".A1").click(function(){
+							$(".div1").fadeToggle();
+							$(".div2").fadeToggle("slow");
+							$(".div3").fadeToggle(3000);
+
+						});
+
+						$(".A2").click(function(){
+							$(".div3").hide();
+
+						});
+
+						$(".A3").click(function(){
+							$(".div3").show();
+
+						});
+
+						$(".A4").click(function(){
+							$(".div3").toggle();
+
+						});
+					});
+			</script>
+
+
+		<style>
+
+			button {
+					
+					background-color:#191970;
+					padding: 15px 32px;
+					color:white;
+					text-align: center;
+					display: inline-block;
+					font-size: 20px;
+					cursor: pointer;
+					}
+		
+		div{ 
+					width:600px;
+					height:80px;
+				}
+			
+			p	{
+					text-align:center;
+					font-size:40px;
+				}
+
+
+		</style>
+
+	</head>
+
+
+<body>
+		
+	
+	<center>
+		<div>
+			
+			<button class="A1">Fade In/Out</button>
+			<button class="A2">Hide</button>
+			<button class="A3">Show</button>
+			<button class="A4">Hide/Show</button>
+			
+		</div>
+	</center>
+		
+		<center>
+			<div class="div1" style="background-color:#9999cc;"><p>University of Ruhuna</p></div>
+		</center>
+		
+		<center>
+			<div class="div2" style="background-color:#b2b2d8;"><p>Faculty of Technology</p></div>
+		</center>
+
+		<center>
+			<div class="div3" style="background-color:#cccce5;"><p>Department of ICT</p></div>
+		</center>
+	
+	</body>
+</html>

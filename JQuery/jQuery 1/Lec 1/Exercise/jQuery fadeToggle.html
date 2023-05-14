@@ -1,0 +1,34 @@
+<html>
+<head>
+
+<script src="jquery-3.6.0.min.js"></script>
+
+<script>
+
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("#div1").fadeToggle();
+			$("#div2").fadeToggle("slow");
+			$("#div3").fadeToggle(3000);
+		});
+	});
+
+
+</script>
+</head>
+
+<body>
+
+	<p>Demonstrate fadeIn() with diferent parameters.</p>
+	<button>Click to fade in boxes</button><br><br>
+
+	<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div>
+
+	<br>
+	<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div>
+
+	<br>
+	<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+
+</body>
+</html>

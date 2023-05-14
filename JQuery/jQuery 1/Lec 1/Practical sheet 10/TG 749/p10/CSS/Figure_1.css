@@ -1,0 +1,39 @@
+	#div1{
+		border-radius: 25px;
+		background: #FFEDCC;
+		padding: 20px;
+		width: 400px;
+		height: 150px;
+		position:relative;
+		}
+		
+	
+	#div2{
+		border-radius: 25px;
+		background: #FEDB99;
+		padding: 20px;
+		width: 400px;
+		height: 150px;
+		position:relative;
+		}
+
+	img{
+		position:relative;
+		height:100px;
+		width:200px;
+	}
+	button{
+		align:right;
+		position:absolute;
+		left:200px;
+		top:10px;
+		border-radius: 5px;
+		background:#CF5300;
+		color:white;
+		}
+	p{
+		display:none;
+		position:absolute;
+		left:10px;
+		top:80px;
+	}
